@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/logo sin fondo.png">
+    
+
+    <!--links-->
+    <link rel="stylesheet" href="./css/style_index.css">
+
+
+
+    <title>Task Master</title>
+
+
+</head>
+<body>
+   
+    <header class="header">
+        <div class="logo">
+<!---->            <img src="./img/Task master (3).png" alt="Logo de la marca">
+        </div>
+        <nav>
+           <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#knowledge">Funciones</a></li>
+           </ul>            
+        </nav>
+        <a class="btn" href="./app.html"><button>APP</button></a>
+
+<!---->        <a onclick="openNav()" class="menu" href="#"><button>Menu</button></a>
+
+<!---->        <div id="mobile-menu" class="overlay">
+<!---->            <a onclick="closeNav()" href="" class="close">&times;</a>
+<!---->            <div class="overlay-content">
+<!---->                <a href="#">Inicio</a>
+<!---->                <a href="#">Funciones</a>
+<!---->                <a href="./app.html">APP</a>
+<!---->            </div>
+<!---->        </div>
+
+    </header>
+
+
+<div class="hero">
+    <!--wave start-->
+    <svg version="1.1" xmlns="http://www.w3.org/2000/svg"
+		xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="100%" height="100%" viewBox="0 0 1600 900" preserveAspectRatio="xMidYMax slice">
+		<defs>
+			<linearGradient id="bg">
+				<stop offset="0%" style="stop-color:rgba(157, 21, 211, 0.6)"></stop>
+				<stop offset="50%" style="stop-color:rgba(157, 21, 211, 0.6)"></stop>
+				<stop offset="100%" style="stop-color:rgba(157, 21, 211, 0.6)"></stop>
+			</linearGradient>
+			<path id="wave" fill="url(#bg)" d="M-363.852,502.589c0,0,236.988-41.997,505.475,0
+	s371.981,38.998,575.971,0s293.985-39.278,505.474,5.859s493.475,48.368,716.963-4.995v560.106H-363.852V502.589z" />
+		</defs>
+		<g>
+			<use xlink:href='#wave' opacity=".3">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="10s"
+          calcMode="spline"
+          values="270 230; -334 180; 270 230"
+          keyTimes="0; .5; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacity=".6">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="8s"
+          calcMode="spline"
+          values="-270 230;243 220;-270 230"
+          keyTimes="0; .6; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+			<use xlink:href='#wave' opacty=".9">
+				<animateTransform
+          attributeName="transform"
+          attributeType="XML"
+          type="translate"
+          dur="6s"
+          calcMode="spline"
+          values="0 230;-140 200;0 230"
+          keyTimes="0; .4; 1"
+          keySplines="0.42, 0, 0.58, 1.0;0.42, 0, 0.58, 1.0"
+          repeatCount="indefinite" />
+			</use>
+		</g>
+	</svg>
+    <!--wave end-->
+    <div class="hero--content">
+        <div class="container-text">
+            <h1>Task Master</h1>
+            <p>Task Master es una aplicación web que te permite organizar tus tareas de una manera sencilla y eficaz.</p>
+            <a href="./app.html "><button class="bn632-hover bn19">Comenzar</button></a>
+        </div>
+        <div class="container-img">
+            <img class="img--hero" src="./img/person1.png" alt="">
+        </div>
+    </div>
+</div>
+        
+<section id="knowledge">
+    <div class="knowledge__container container">
+
+       
+
+        <div class="text">
+            <h1>Funciones</h1>
+            <p>Task Master tiene varias funciones, como una aplicación de lista de tareas, calculadora, un convertidor de monedas y una aplicación de cambio de divisas. Además, se agregarán otras funciones con el tiempo.</p>
+        </div>
+
+        <figure class="knowledge__picture">
+            <img src="./img/person2.png" class="knowledge__img">
+        </figure>
+
+    </div>
+</section>
+    
+<section id="contacto">
+    <div class="fila">
+        <div class="col">
+            <h1>TASK MASTER</h1>
+        </div>
+        <div class="col">
+            <h3>Menu</h3>
+            <a href="#">Inicio</a>
+            <a href="#knowledge">Funciones</a>
+            <a href="./app.html">APP</a>
+        </div>
+      
+        <div class="col">
+            <h3>Social Media</h3>
+            <div class="media">
+               <a href="https://www.github.com">Git Hub</a>
+            </div>
+            <div class="media">
+                <a href="https://www.google.com">Instagram</a>
+            </div>
+        </div>
+        <div class="Fac">
+            <button onclick="window.location.href='https://www.google.com'">Launch APP</button>
+
+        </div>
+    </div>
+   
+    <h4 class="footer__copyright">&copy; Mario Bernard 2023</h4s>
+
+</section>
+
+
+
+
+
+    <!--scrip-->
+    <script src="./js/main.js"></script>
+</body>
+</html>

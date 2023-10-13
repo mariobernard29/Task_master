@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style_clima.css">
+    <link rel="shortcut icon" href="./img/logo sin fondo.png">
+    <link rel="stylesheet" href="./ccs/style_navbar.css">
+    
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style_navbar.css">
+    <title>Clima</title>
+</head>
+<body>
+
+
+    <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+
+    <div class="barra-lateral">
+        <div>
+            <img class="logo_navbar" src="./img/Task master (3).png" alt="">
+            
+        </div>
+
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a id="inbox" href="./app.html">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span>inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./clima.html">
+                        <ion-icon name="thunderstorm-outline"></ion-icon>
+                        <span>Clima</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./calculadora.html">
+                        <ion-icon name="calculator-sharp"></ion-icon>
+                        <span>Calculadora</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./converter.html">
+                        <ion-icon name="cash-sharp"></ion-icon>
+                        <span>Cambio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                        <span>Important</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <ion-icon name="play-skip-back-outline"></ion-icon>
+                        <span>Salir</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+
+        
+
+    </div>
+
+<body>
+    <h1>Clima</h1>
+    <div class="container">
+      <div class="weather-input">
+        <h3>Ingrese el nombre de una ciudad</h3>
+        <input class="city-input" type="text" placeholder="E.g., New York, London, Tokyo">
+        <button class="search-btn">Buscar</button>
+        <div class="separator"></div>
+        <button class="location-btn">Usar ubicación actual</button>
+      </div>
+      <div class="weather-data">
+        <div class="current-weather">
+          <div class="details">
+            <h2>_______ ( ______ )</h2>
+            <h6>Temperatura: __°C</h6>
+            <h6>Viento: __ M/S</h6>
+            <h6>Humedad: __%</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./js/clima.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./js/navbar.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+
+
+
+:root {
+ --white: #fafafb;
+ --purple:#9a67ea;
+ --blue-light:#04d4c3;
+ --blue-dark:#2a73c2;
+ --green: #2c7b90;
+
+}
+
+body {
+  background:linear-gradient(to right, #8b33c5, #15a0e1);
+  height: 100vh;   
+  font-family: poppins, sans-seri;
+  
+}
+
+.container {
+  max-width: 80%;
+  width: 400px;
+  height: 500px;
+  margin: 0 auto;
+}
+
+/*PERFIL*/
+.logo {
+  width: 200px;
+  margin: 0 auto;
+  display: block;
+  
+}
+
+
+.perfil h1 {
+  color:white;
+}
+
+.perfil span {
+  color:white;
+  letter-spacing: 1px;
+}
+
+#fecha {
+  color: white;
+  padding: 50px 0 5px 0px;
+
+}
+
+
+
+
+/*AGREGAR TAREA*/
+
+.agregar-tarea {
+  background-color: linear-gradient(to right, #8b33c5, #15a0e1);
+  border-radius: 15px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 70px;
+  padding: 10px;
+  margin: 40px 0;
+}
+input{
+  font-size: 16px;
+}
+
+.agregar-tarea input {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  border: none;
+  background-color:white;
+  padding-left: 10px;
+  
+
+}
+
+.agregar-tarea input::placeholder {
+ font-size: 1.1rem;
+ color: linear-gradient(to right, #8b33c5, #15a0e1);
+}
+.agregar-tarea input:focus {
+  outline: none;
+  border: 2px solid #F47C00;
+  
+}
+
+.agregar-tarea i{
+  font-size: 50px;
+  color:#F47C00;
+
+}
+.agregar-tarea i:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+
+/*SECCION DE TAREA */
+
+.seccion-tarea h3 {
+  color: white;
+  margin-bottom: 20px;
+}
+
+.seccion-tarea li {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: white;
+  border-radius: 15px;
+  padding: 10px;
+  color: black;
+  margin: 5px 0;
+
+}
+.seccion-tarea i {
+  font-size: 25px;
+}
+
+.seccion-tarea > ul p {
+  font-size: 1.2rem;
+
+}
+
+
+.seccion-tarea i:hover {
+  color: #F47C00;
+  cursor: pointer;
+}
+
+.line-through{
+  text-decoration: line-through;
+  color : #F47C00;
+} 
+
+@media screen and (max-width: 800px) {
+  body{
+    background: #7A22BB;
+  }
+  
+}

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tasks master</title>  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="shortcut icon" href="./img/logo sin fondo.png">
+    <link rel="stylesheet" href="./css/style_navbar.css">
+</head>
+<body>
+   <!--navbar-->
+    <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+
+    <div class="barra-lateral">
+        <div>
+            <img class="logo_navbar" src="./img/Task master (3).png" alt="">
+            
+        </div>
+
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a id="inbox" href="#">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./clima.html">
+                        <ion-icon name="thunderstorm-outline"></ion-icon>
+                        <span>Clima</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./calculadora.html">
+                        <ion-icon name="calculator-sharp"></ion-icon>
+                        <span>Calculadora</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./converter.html">
+                        <ion-icon name="cash-sharp"></ion-icon>
+                        <span>Cambio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                        <span>Important</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <ion-icon name="play-skip-back-outline"></ion-icon>
+                        <span>Salir</span>
+                    </a>
+                </li>
+                
+            </ul>
+        </nav>
+    </div>
+    <!--fin navbar-->
+
+    <!--task master-->
+<div class="container">
+    <div class="perfil">
+        <div id="fecha"></div>
+        <h1>Hola </h1>
+        <span>Vamos a cumplir tus metas</span>
+    </div>
+
+    <div class="agregar-tarea">
+        <input type="text" id="input" placeholder="Agregar una tarea">
+        <i id="boton-enter"class="fas fa-plus-circle"></i>
+    </div>
+
+    
+    <div class="seccion-tarea">
+        <h3>Estas son tus Tareas Pendientes </h3>
+        <ul id="lista">
+        </ul>
+    </div>   
+</div>
+
+
+<!--fin task master-->
+<script src="./js/index.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+<script src="./js/navbar.js"></script>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Convertidor de Monedas</title>
+    <link rel="stylesheet" href="./css/style_converter.css">
+    <link rel="stylesheet" href="./css/style_navbar.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="shortcut icon" href="./img/logo sin fondo.png">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    
+
+
+
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+  </head>
+  <body>
+
+    <div class="menu">
+        <ion-icon name="menu-outline"></ion-icon>
+        <ion-icon name="close-outline"></ion-icon>
+    </div>
+
+    <div class="barra-lateral">
+        <div>
+            
+                
+                <img class="logo_navbar" src="./img/Task master (3).png" alt="">
+            
+        </div>
+
+        <nav class="navegacion">
+            <ul>
+                <li>
+                    <a id="inbox" href="./app.html">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span>Inicio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./clima.html">
+                        <ion-icon name="thunderstorm-outline"></ion-icon>
+                        <span>Clima</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./calculadora.html">
+                        <ion-icon name="calculator-sharp"></ion-icon>
+                        <span>Calculadora</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./converter.html">
+                        <ion-icon name="cash-sharp"></ion-icon>
+                        <span>Cambio</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <ion-icon name="bookmark-outline"></ion-icon>
+                        <span>Important</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="./index.html">
+                        <ion-icon name="play-skip-back-outline"></ion-icon>
+                        <span>Salir</span>
+                    </a>
+                </li>
+               
+            </ul>
+        </nav>
+
+        <div>
+            <div class="linea"></div>
+
+            <div class="modo-oscuro">
+                <div class="info">
+                    <ion-icon name="moon-outline"></ion-icon>
+                    <span>Drak Mode</span>
+                </div>
+                <div class="switch">
+                    <div class="base">
+                        <div class="circulo">
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="usuario">
+                <img src="./img/IMG_0219.JPG" alt="">
+                <div class="info-usuario">
+                    <div class="nombre-email">
+                        <span class="nombre">Mario</span>
+                        <span class="email">mariojberu29@icloud.com</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+    <div class="wrapper">
+      <header>Conversor de moneda</header>
+      <form action="#">
+        <div class="amount">
+          <p>Ingresa Cantidad</p>
+          <input type="text" value="1">
+        </div>
+        <div class="drop-list">
+          <div class="from">
+            <p>De</p>
+            <div class="select-box">
+              <img src="https://flagcdn.com/48x36/us.png" alt="flag">
+              <select> <!-- Options tag are inserted from JavaScript --> </select>
+            </div>
+          </div>
+          <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+          <div class="to">
+            <p>A</p>
+            <div class="select-box">
+              <img src="https://flagcdn.com/48x36/mx.png" alt="flag">
+              <select> <!-- Options tag are inserted from JavaScript --> </select>
+            </div>
+          </div>
+        </div>
+        <div class="exchange-rate">Obteniendo el tipo de cambio...</div>
+        <button>Obtener el tipo de cambio</button>
+      </form>
+    </div>
+    <script src="./js/navbar.js"></script>
+    <script src="js/country-list.js"></script>
+    <script src="./js/converter.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  </body>
+</html>
